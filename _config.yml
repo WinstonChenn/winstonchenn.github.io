@@ -31,6 +31,7 @@ github_username:  jekyll
 theme: jekyll-theme-hyde
 plugins:
   - jekyll-feed
+  - github-pages
 
 # resume settings
 resume_interest: test
