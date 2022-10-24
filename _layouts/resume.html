@@ -11,10 +11,27 @@ layout: default
   <header class="section-header">
       <h2>Education</h2>
   </header>
+  {% for education in site.data.education %}
+  <div>
+    <h3><a href="{{ education.link }}">{{ education.school }}</a></h3>
+    <li>{{ education.degree }}</li>
+    <li>{{ education.start }} - {{ education.end }}</li>
+    <li>GPA: {{ education.gpa }}</li>
+  </div>
+  {% endfor %}
   <hr />
   <header class="section-header">
-      <h2>Research Experience</h2>
+    <h2>Research Experience</h2>
   </header>
+  {% for research in site.data.research %}
+    <h3><a href="{{ research.link }}">{{ research.lab }}</a>, {{ research.institution }}</h3>
+    {% for project in research.projects %}
+      <h4>{{ project.title }}</h4>
+      {% for desc in project.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
   <hr />
   <header class="section-header">
       <h2>Teaching Experience</h2>

@@ -1,0 +1,14 @@
+- lab: Noble Research lab
+  institution: University of Washington
+  link: https://noble.gs.washington.edu/
+  projects:
+    - title: Confidence Estimation for Network Propagation
+      descriptions: 
+        - content: "Developed a method to compute statistical confidence estimation (q-value) for all network propagation-based prediction algorithm."
+        - content: Applied the method on Rankprop, a protein homology prediction algorithm and demonstrated the ability to identify homology with high-precision."
+    - title: Error‐controlled Interaction Detection in Neural Network
+      descriptions: 
+        - content: Developed a neural network interpretation method that discovers learned feature interactions at desired error rate.
+        - content: Applied the interpretation method on fruit flies (Drosophila) genomics data to identify meaningful transcription factor (TF) interactions.
+
+  
