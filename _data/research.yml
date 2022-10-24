@@ -4,11 +4,15 @@
   projects:
     - title: Confidence Estimation for Network Propagation
       descriptions: 
-        - content: "Developed a method to compute statistical confidence estimation (q-value) for all network propagation-based prediction algorithm."
-        - content: Applied the method on Rankprop, a protein homology prediction algorithm and demonstrated the ability to identify homology with high-precision."
-    - title: Error‐controlled Interaction Detection in Neural Network
+        - content: Developed a framework to estimate statistical confidence (q-value) for network propagation-based prediction algorithm.
+        - content: Implemented the framework on Rankprop, a network propagation-based protein homology detection algorithm.
+        - content: Applied Rankprop and confidence estimation on a large-scale protein database (SCOP) to demonstrate its ability of identifying protein homologies with high-precision.
+        - content: "Presented research work at University of Washington's annual undergraduate research symposium."
+
+    - title: "Error-controlled Interaction Detection in Neural Network"
       descriptions: 
         - content: Developed a neural network interpretation method that discovers learned feature interactions at desired error rate.
+        - content: Designed and implemented a compute module that debiases the raw interaction interpretation results.
         - content: Applied the interpretation method on fruit flies (Drosophila) genomics data to identify meaningful transcription factor (TF) interactions.
 
   

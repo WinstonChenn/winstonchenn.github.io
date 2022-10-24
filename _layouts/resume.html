@@ -3,6 +3,10 @@ layout: default
 ---
 
 <body class="page {{ page.color_theme }}">
+  Updated on {% last_modified_at %}<br/><br/>
+
+  <a href="{{ site.baseurl }}/{{ site.cv_path }}" target="_blank" style="font-size: 25px"><u>CV (pdf)</u></a>
+
   <h2>About</h2>
   {% include about.html %}
   <hr />
