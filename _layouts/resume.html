@@ -14,7 +14,7 @@ layout: default
       <h2>Education</h2>
   </header>
   {% for education in site.data.education %}
-    <h3><a href="{{ education.link }}">{{ education.school }}</a></h3>
+    <h3><a href="{{ education.link }}" target="_blank">{{ education.school }}</a></h3>
     <ul>
       <li>{{ education.degree }}</li>
       <li>{{ education.start }} - {{ education.end }}</li>
@@ -25,7 +25,7 @@ layout: default
 
   <h2>Research Experience</h2>
   {% for research in site.data.research %}
-    <h3><a href="{{ research.link }}">{{ research.lab }}</a>, {{ research.institution }}</h3>
+    <h3><a href="{{ research.link }}" target="_blank">{{ research.lab }}</a>, {{ research.institution }}</h3>
     {% for project in research.projects %}
       <h4>{{ project.title }}</h4>
       <ul>
