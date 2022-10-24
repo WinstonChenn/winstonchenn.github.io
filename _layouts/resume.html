@@ -12,12 +12,12 @@ layout: default
       <h2>Education</h2>
   </header>
   {% for education in site.data.education %}
-  <div>
     <h3><a href="{{ education.link }}">{{ education.school }}</a></h3>
-    <li>{{ education.degree }}</li>
-    <li>{{ education.start }} - {{ education.end }}</li>
-    <li>GPA: {{ education.gpa }}</li>
-  </div>
+    <ul>
+      <li>{{ education.degree }}</li>
+      <li>{{ education.start }} - {{ education.end }}</li>
+      <li>GPA: {{ education.gpa }}</li>
+    </ul>
   {% endfor %}
   <hr />
   <header class="section-header">
@@ -27,19 +27,41 @@ layout: default
     <h3><a href="{{ research.link }}">{{ research.lab }}</a>, {{ research.institution }}</h3>
     {% for project in research.projects %}
       <h4>{{ project.title }}</h4>
-      {% for desc in project.descriptions %}
-        <li>{{ desc.content }}</li>
-      {% endfor %}
+      <ul>
+        {% for desc in project.descriptions %}
+          <li>{{ desc.content }}</li>
+        {% endfor %}
+      </ul>
     {% endfor %}
   {% endfor %}
   <hr />
   <header class="section-header">
       <h2>Teaching Experience</h2>
   </header>
+  {% for teaching in site.data.teaching %}
+  <ul>
+    <li><p><b>{{ teaching.title }}</b>, {{ teaching.institution }}</p></li>
+    <ul>
+      {% for desc in teaching.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    </ul>
+  </ul>
+  {% endfor %}
   <hr />
   <header class="section-header">
       <h2>Industry Experience</h2>
   </header>
+  {% for industry in site.data.industry %}
+  <ul>
+    <li><p><b>{{ industry.title }}</b>, {{ industry.company }}</p></li>
+    <ul>
+      {% for desc in industry.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    </ul>
+  </ul>
+  {% endfor %}
 </body>
 
 <!-- {{ content }} -->

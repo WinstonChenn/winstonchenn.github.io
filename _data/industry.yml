@@ -1,0 +1,14 @@
+- title: Software Engineering Intern
+  company: RealNetworks
+  link: https://realnetworks.com/
+  descriptions:
+  - content: Built a FIDO2 roaming authenticator prototype that allows passwordless authentication on web services that support Webauthn
+  - content: Integrated the roaming authenticator with SAFR facial recognition technology to enable biometric verification.
+  - content: Demonstrated the authenticator in collaboration with StrongKey at the flagship FIDO conference, Authenticator 2022.
+- title: Python Engineering Intern
+  company: NVIDIA
+  link: https://www.nvidia.com/en-us/
+  descriptions:
+  - content: Built and deployed a testing infrastructure for analyzing and visualizing NVIDIA's genomics computing software logs.
+  - content: Drove discussions with core developers regarding testing infrastructure's feature requirements.
+  - content: Presented the final project results through a slide deck, confluence page, and detailed README.
