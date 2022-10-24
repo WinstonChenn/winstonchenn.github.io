@@ -14,11 +14,6 @@
     padding: 2rem 1rem;
     color: rgba(255, 255, 255, 0.5);
     background-color: #202020; }
-.sidebar-about{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
   @media (min-width: 48em) {
     .sidebar {
       position: fixed;
@@ -27,16 +22,20 @@
       bottom: 0;
       width: 18rem;
       text-align: left; } 
-    .sidebar-about{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
   }
   /* Sidebar links */
   .sidebar a {
     color: #fff; }
-  
+  .sidebar-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 48em) {
+    .sidebar-about{
+      align-items: flex-start;
+    }
+  }
   /* About section */
   .sidebar-about h1 {
     color: #fff;
@@ -73,6 +72,3 @@
       bottom: 1rem;
       left: 1rem; } 
 }
-
-  
-
