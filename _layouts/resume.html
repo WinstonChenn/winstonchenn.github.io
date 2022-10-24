@@ -3,10 +3,8 @@ layout: default
 ---
 
 <body class="page {{ page.color_theme }}">
-  <header class="section-header">
-    <h2>About</h2>
-    {% include about.html %}
-  </header>
+  <h2>About</h2>
+  {% include about.html %}
   <hr />
   <header class="section-header">
       <h2>Education</h2>
@@ -20,9 +18,8 @@ layout: default
     </ul>
   {% endfor %}
   <hr />
-  <header class="section-header">
-    <h2>Research Experience</h2>
-  </header>
+
+  <h2>Research Experience</h2>
   {% for research in site.data.research %}
     <h3><a href="{{ research.link }}">{{ research.lab }}</a>, {{ research.institution }}</h3>
     {% for project in research.projects %}
@@ -35,9 +32,20 @@ layout: default
     {% endfor %}
   {% endfor %}
   <hr />
-  <header class="section-header">
-      <h2>Teaching Experience</h2>
-  </header>
+
+  <h2>Honors and Awards</h2>
+  <ul>
+    {% for scholarship in site.data.scholarship %}
+      <li><p><a href="{{ scholarship.link }}" target="_blank"><b>{{ scholarship.name }}</b></a>, 
+        {{ scholarship.institution }} ({{ scholarship.year }}) </p></li>
+      <ul>
+        <li> {{ scholarship.description }} </li>
+      </ul>
+    {% endfor %}
+  </ul>
+  <hr/>
+
+  <h2>Teaching Experience</h2>
   {% for teaching in site.data.teaching %}
   <ul>
     <li><p><b>{{ teaching.title }}</b>, {{ teaching.institution }}</p></li>
@@ -49,12 +57,12 @@ layout: default
   </ul>
   {% endfor %}
   <hr />
-  <header class="section-header">
-      <h2>Industry Experience</h2>
-  </header>
+
+  <h2>Industry Experience</h2>
   {% for industry in site.data.industry %}
   <ul>
-    <li><p><b>{{ industry.title }}</b>, {{ industry.company }}</p></li>
+    <li><p><b>{{ industry.title }}</b>, <a href="{{ industry.link }} " target="_blank">
+      {{ industry.company }}</a></p></li>
     <ul>
       {% for desc in industry.descriptions %}
         <li>{{ desc.content }}</li>
@@ -62,6 +70,39 @@ layout: default
     </ul>
   </ul>
   {% endfor %}
-</body>
+  <hr />
 
-<!-- {{ content }} -->
+  <h2>Leadership Experience</h2>
+  {% for leadership in site.data.leadership %}
+  <ul>
+    <li><p><b>{{ leadership.title }}</b>, <a href="{{ leadership.link }} " target="_blank">
+      {{ leadership.organization }}</a></p></li>
+    <ul>
+      {% for desc in leadership.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    </ul>
+  </ul>
+  {% endfor %}
+  <hr />
+
+  <h2>Technical Skills</h2>
+  <ul>
+    {% for skill in site.data.technical %}
+    <li>{{ skill.type }}</li>
+      <ul>
+        <li>
+          {% for example in skill.examples %}
+            {% if forloop.index == 1 %}
+              {{ example.item }}
+            {% else %}
+              , {{ example.item }}
+            {% endif %}
+          {% endfor %}
+        </li>
+      </ul>
+    {% endfor %}
+  </ul>
+
+
+</body>

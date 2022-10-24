@@ -1,0 +1,18 @@
+- name: Mary Gates Research Scholarship
+  link: https://expd.uw.edu/mge/
+  institution: Mary Gates Endowment For Students, UW
+  description: Scholarship supporting outstanding undergraduate research
+  year: 2021
+
+- name: Lawrence & Lucille Frey Endowed Electrical & Computer Engineering Scholarship
+  link: https://www.ece.uw.edu/engage/students/scholarships/
+  institution: Department of Electrical & Computer Engineering, UW
+  description: Scholarship awarded to ECE students with academic execellence
+  year: 2020
+
+- name: Herschel & Caryl Roman Scholarship
+  link: https://www.gs.washington.edu/academics/roman/
+  institution: Department of Genome Science, UW
+  description: Scholarship awarded to undergraduate students working in genetics research.
+  year: 2020
+

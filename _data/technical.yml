@@ -1,0 +1,18 @@
+- type: Programming Languages
+  examples:
+    - item: Python
+    - item: JavaScript
+    - item: Java
+    - item: C/C++
+    - item: R
+- type: Frameworks
+  examples:
+  - item: PyTorch
+  - item: TensorFlow
+  - item: Numpy
+  - item: NetworkX
+- type: Tools
+  examples:
+    - item: Git
+    - item: Latex
+  
