@@ -108,5 +108,35 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h2>Projects</h2>
+  {% for project in site.data.project %}
+  <ul>
+    <li><p><a href="{{ project.link }} " target="_blank"><b>{{ project.title }}</b></a>, 
+      &nbsp;{{ project.time }}</p></li>
+    <ul>
+      {% for desc in project.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    </ul>
+  </ul>
+  {% endfor %}
+  <hr />
+
+  <h2>Posters & Presentations</h2>
+  {% for presentation in site.data.presentation %}
+    <h3>{{ presentation.venue }}</h3>
+    {% if presentation.link == nil %}
+      <h4>{{ presentation.title }}, &nbsp;{{ presentation.time }}</h4>
+    {% else %}
+      <h4><a href="{{ presentation.link }}" target="_blank">{{ presentation.title }}</a>,
+        &nbsp;{{ presentation.time }}</h4>
+    {% endif %}
+    <ul>
+      {% for desc in presentation.descriptions %}
+        <li>{{ desc.content }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  <hr />
 
 </body>

@@ -1,0 +1,31 @@
+- venue: 2022 ENGINE Showcase
+  title: Real-Time SDR to HDR Up Conversion
+  link: https://www.ece.uw.edu/wp-content/uploads/2022/06/RealNetworks-SDR2HDR-Poster-1.pdf
+  time: June 1, 2022
+  descriptions:
+  - content: "Motivation of this work: developed a real-time SDR to HDR conversion algorithm that can be applied to perform video conversion on the fly."
+  - content: "Discussed the two existing approach to perform SDR to HDR and their limitations: 1) Inverse tone mapping(ITM)-based approach (low conversion quality). 2) Deep learning-based approach (too slow for real-time application)"
+  - content: "Explained our approach: an improved ITM method that can dynamically estimate the optimal conversion parameters using ML techniques."
+
+- venue: NVIDIA Internal Meeting
+  title: A Log-based Testing Tool for NVIDIA's Genomics Computing Software
+  time: Sept. 10, 2021
+  descriptions:
+  - content: Introduced a web tool that performs parsing, analysis, and visualization for the entire suite of NVIDIA's genomics computing softwares (Clara Parabricks)}
+  - content: Demostrated the usage of the web tool.
+  - content: Explained web tool's internal architecture and the role of each components.
+  - content: "Summarized the technologies used to build and deploy the web application: JavaScript, Python, React, FastAPI, Nginx, Gunicorn."
+
+- venue: University of Washington's 24th Annual undergraduate research
+  title: Confidence Estimation for Network Propagation-based Biological Studies
+  link: https://www.youtube.com/watch?v=dZ4pvAE1OHg
+  time: May. 18, 2021
+  descriptions:
+  - content: "Intuitively explained the network propagation algorithm: a method that mimic diffusion process to make inference from network data." 
+  - content: "Limitation of network propagation: no confidence estimation for its inference results, which can be limiting for biological discovery."
+  - content: "Our method: integrating network propagation with the knockoff framework to efficiently estimate confidence level (q-value)."
+  - content: "Showcased experiment results of applying network propagation with confidence estimation on protein homology discovery."
+
+
+
+  

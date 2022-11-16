@@ -4,9 +4,9 @@
   projects:
     - title: Confidence Estimation for Network Propagation
       descriptions: 
-        - content: Developed a framework to estimate statistical confidence (q-value) for network propagation-based prediction algorithm.
+        - content: Developed a framework to estimate statistical confidence (q-value) for a class of ML algorithm called network propagation.
         - content: Implemented the framework on Rankprop, a network propagation-based protein homology detection algorithm.
-        - content: Applied Rankprop and confidence estimation on a large-scale protein database (SCOP) to demonstrate its ability of identifying protein homologies with high-precision.
+        - content: Applied Rankprop with confidence estimation on a large-scale protein database (SCOP) to demonstrate its ability of identifying protein homologies with high-precision.
         - content: "Presented research work at University of Washington's annual undergraduate research symposium."
 
     - title: "Error-controlled Interaction Detection in Neural Network"
@@ -15,4 +15,13 @@
         - content: Designed and implemented a compute module that debiases the raw interaction interpretation results.
         - content: Applied the interpretation method on fruit flies (Drosophila) genomics data to identify meaningful transcription factor (TF) interactions.
 
-  
+- lab: UW ECE ENGINE Capstone/RealNetworks
+  institution: University of Washington
+  link: https://www.ece.uw.edu/news-events/capstone-fair/
+  projects:
+  - title: Real-Time SDR to HDR Up Conversion
+    descriptions: 
+    - content: Conducted research on a class of SDR to HDR video up-conversion algorithm called inverse tone mapping.
+    - content: Improved the existing inverse tone mapping algorithm by introducing a dynamic parameter estimation based on input image.
+    - content: Built a webpage for interactively optimizing inverse tone mapping parameter for given images.
+    - content: Summarized the research result in a poster and presented at UW's 2022 ENGINE show case. 

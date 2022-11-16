@@ -1,0 +1,16 @@
+- title: KiwiLink
+  link: https://vkuan.github.io/index.html
+  time: June 2020 - Oct. 2021
+  descriptions:
+  - content: KiwiLink is an Android/iOS mobile app for online study buddy finding in college setting.
+  - content: Rapidly built the prorotype app using JavaScript, React Native, and Firebase (Summer 2020).
+  - content: Led a team of 10 engineers maintaining app operation and developing new features to serve 1500+ users at the University of Washington. (Sept 2020 - Oct. 2021)
+
+- title: Fasr
+  link: https://github.com/WinstonChenn/FASR
+  time: Jan. 2021 - June 2021
+  descriptions:
+  - content: Fasr is a portable facemask sanitizer device that allows user to efficiently clean their mask using heat and disinfectant.
+  - content: Led a team of 6 people developed the hardware prototype and a business plan.
+  - content: Participated in the UW Dempsey Startup Competition (2021).
+  - content: Open sourced all the technical and business documentations.
