@@ -18,9 +18,22 @@ layout: default
     <ul>
       <li>{{ education.degree }}</li>
       <li>{{ education.start }} - {{ education.end }}</li>
-      <li>GPA: {{ education.gpa }}</li>
+      {% if education.gpa != nil %} <li>GPA: {{ education.gpa }}</li>{% endif %}
     </ul>
   {% endfor %}
+  <hr />
+
+  <header class="section-header">
+      <h2>Publications</h2>
+  </header>
+  <ul>
+  {% for publication in site.data.publication %}
+      <li>{{ publication.authors }}, "<i>{{ publication.title }}</i>", {{ publication.publisher }}. {{ publication.year }}.
+        <a href="{{ publication.link }}" target="_blank">Link</a>.
+        {% if publication.poster != nil %} <a href="{{ publication.poster }}" target="_blank">Poster</a>. {% endif %}
+      </li>
+  {% endfor %}
+  </ul>
   <hr />
 
   <h2>Research Experience</h2>
