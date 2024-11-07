@@ -1,6 +1,25 @@
+- title: ", Error-controlled Interaction Discovery in Deep Neural Networks"
+  authors: "<b>Winston Chen</b>, Yifan Jiang, William Stafford Noble, Yang Young Lu"
+  publisher: "NeurIPS 2024 workshop on Interpretable AI: Past, Present and Future"
+  year: 2024
+  paper: https://arxiv.org/abs/2408.17016
+  poster: assets/pdf/Diamond_poster.pdf
+
 - title: "DeepROCK: Error-controlled interaction detection in deep neural networks"
   authors: "<b>Winston Chen</b>, William Stafford Noble, Yang Young Lu"
-  publisher: arxiv
+  publisher: Machine Learning in Computational Biology 2023
   year: 2023
-  link: https://arxiv.org/abs/2309.15319
+  paper: https://arxiv.org/abs/2309.15319
   poster: assets/pdf/DeepROCK_poster.pdf
+
+- title: "Heterogeneous Treatment Assignment Effect Estimation Under Non-compliance with Conditional Front-door Adjustment"
+  authors: "<b>Winston Chen</b>, Trenton Chang, Jenna Wiens"
+  publisher: Under Review
+  year: 2024
+
+- title: "Error-controlled Non-additive Interaction Discovery in Machine Learning Models"
+  authors: "<b>Winston Chen</b>, Yifan Jiang, William Stafford Noble, Yang Young Lu"
+  publisher: Under Review
+  year: 2024
+
+

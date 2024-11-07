@@ -3,12 +3,11 @@ layout: default
 ---
 
 <body class="page {{ page.color_theme }}">
-  Updated on {% last_modified_at %}<br/><br/>
-
-  <a href="{{ site.baseurl }}/{{ site.cv_path }}" target="_blank" style="font-size: 25px"><u>CV (pdf)</u></a>
+  <!-- Updated on {% last_modified_at %}<br/><br/> -->
 
   <h2>About</h2>
   {% include about.html %}
+  
   <hr />
   <header class="section-header">
       <h2>Education</h2>
@@ -28,9 +27,9 @@ layout: default
   </header>
   <ul>
   {% for publication in site.data.publication %}
-      <li>{{ publication.authors }}, "<i>{{ publication.title }}</i>", {{ publication.publisher }}. {{ publication.year }}.
-        <a href="{{ publication.link }}" target="_blank">Link</a>.
-        {% if publication.poster != nil %} <a href="{{ publication.poster }}" target="_blank">Poster</a>. {% endif %}
+      <li>{{ publication.authors }}, "<b>{{ publication.title }}</b>". {{ publication.publisher }}.
+        {% if publication.paper != nil %} [<a href="{{ publication.paper }}" target="_blank">Paper</a>] {% endif %}
+        {% if publication.poster != nil %} [<a href="{{ publication.poster }}" target="_blank">Poster</a>] {% endif %}
       </li>
   {% endfor %}
   </ul>

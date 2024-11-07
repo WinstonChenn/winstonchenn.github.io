@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Winston Chen
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+email: chenwt@umich.edu
+description: "Ph.D. student interested in the intersection of machine learning and healthcare" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://winstonchenn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -38,6 +38,12 @@ resume_interest: test
 # sidebar settings
 socials:
 - 
+  title: Email
+  url: mailto:chenwt@umich.com
+- 
+  title: CV
+  url: assets/pdf/Winston_CV.pdf
+- 
   title: GitHub
   url: https://github.com/WinstonChenn
 - 
@@ -46,9 +52,6 @@ socials:
 - 
   title: Twitter
   url: https://twitter.com/Winston19990918
-- 
-  title: Email
-  url: mailto:winstonchen999@gmail.com
 
 profile_image: assets/img/ducky.jpg
 

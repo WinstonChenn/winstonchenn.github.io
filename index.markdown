@@ -1,4 +1,4 @@
 ---
 layout: resume
-color_theme: theme-base-0d
+color_theme: theme-base-0f
 ---
