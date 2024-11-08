@@ -1,4 +1,4 @@
-- title: ", Error-controlled Interaction Discovery in Deep Neural Networks"
+- title: "Error-controlled Interaction Discovery in Deep Neural Networks"
   authors: "<b>Winston Chen</b>, Yifan Jiang, William Stafford Noble, Yang Young Lu"
   publisher: "NeurIPS 2024 workshop on Interpretable AI: Past, Present and Future"
   year: 2024
@@ -7,7 +7,7 @@
 
 - title: "DeepROCK: Error-controlled interaction detection in deep neural networks"
   authors: "<b>Winston Chen</b>, William Stafford Noble, Yang Young Lu"
-  publisher: Machine Learning in Computational Biology 2023
+  publisher: Machine Learning in Computational Biology (MLCB), 2023
   year: 2023
   paper: https://arxiv.org/abs/2309.15319
   poster: assets/pdf/DeepROCK_poster.pdf

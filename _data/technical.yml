@@ -5,11 +5,13 @@
     - item: Java
     - item: C/C++
     - item: R
+    - item: SQL
 - type: Frameworks
   examples:
   - item: PyTorch
   - item: TensorFlow
   - item: Numpy
+  - item: Pandas
   - item: NetworkX
 - type: Tools
   examples:

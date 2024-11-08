@@ -36,7 +36,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 21px;
+    font-size: 23px;
   }
 }
 
@@ -123,7 +123,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 50rem;
+    max-width: 43rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -243,3 +243,11 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+li { 
+  margin: 0px 0;
+}
+
+// ul {
+//   line-height: 2em;
+// }

@@ -27,15 +27,30 @@ layout: default
   </header>
   <ul>
   {% for publication in site.data.publication %}
-      <li>{{ publication.authors }}, "<b>{{ publication.title }}</b>". {{ publication.publisher }}.
-        {% if publication.paper != nil %} [<a href="{{ publication.paper }}" target="_blank">Paper</a>] {% endif %}
-        {% if publication.poster != nil %} [<a href="{{ publication.poster }}" target="_blank">Poster</a>] {% endif %}
-      </li>
+        <li>
+          <b>{{ publication.title }}</b> <br/> 
+          <ul>
+            <li>{{ publication.authors }}</li>
+            <li><i>{{ publication.publisher }}</i>
+            {% if publication.paper != nil %} <a href="{{ publication.paper }}" target="_blank">[Paper]</a> {% endif %}
+            {% if publication.poster != nil %} <a href="{{ publication.poster }}" target="_blank">[Poster]</a> {% endif %}</li>
+          </ul>
+        </li>
   {% endfor %}
   </ul>
   <hr />
 
-  <h2>Research Experience</h2>
+  <h2>Services</h2>
+  <ul>
+  {% for service in site.data.services %}
+      <li>
+        <b>{{ service.role }}</b>, <a href="{{ service.link }}" target="_blank">{{ service.organization }}</a>, ({{ service.year }}) <br/>
+      </li>
+      {% endfor %}
+    </ul>
+  <hr/>
+
+  <!-- <h2>Research Experience</h2>
   {% for research in site.data.research %}
     <h3><a href="{{ research.link }}" target="_blank">{{ research.lab }}</a>, {{ research.institution }}</h3>
     {% for project in research.projects %}
@@ -47,67 +62,69 @@ layout: default
       </ul>
     {% endfor %}
   {% endfor %}
-  <hr />
+  <hr /> -->
 
   <h2>Honors and Awards</h2>
   <ul>
-    {% for scholarship in site.data.scholarship %}
-      <li><p><a href="{{ scholarship.link }}" target="_blank"><b>{{ scholarship.name }}</b></a>, 
-        {{ scholarship.institution }} ({{ scholarship.year }}) </p></li>
-      <ul>
-        <li> {{ scholarship.description }} </li>
-      </ul>
-    {% endfor %}
-  </ul>
+  {% for scholarship in site.data.scholarship %}
+      <li>
+        <a href="{{ scholarship.link }}" target="_blank"><b>{{ scholarship.name }}</b></a>, {{ scholarship.institution }} ({{ scholarship.year }}) <br/>
+        <!-- {{ scholarship.description }} -->
+        <ul>
+          <li> {{ scholarship.description }} </li>
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
   <hr/>
 
   <h2>Teaching Experience</h2>
-  {% for teaching in site.data.teaching %}
   <ul>
-    <li><p><b>{{ teaching.title }}</b>, {{ teaching.institution }}</p></li>
+  {% for teaching in site.data.teaching %}
+    <li><b>{{ teaching.title }}</b>, {{ teaching.institution }}</li>
     <ul>
       {% for desc in teaching.descriptions %}
         <li>{{ desc.content }}</li>
       {% endfor %}
     </ul>
+  
+    {% endfor %}
   </ul>
-  {% endfor %}
   <hr />
 
   <h2>Industry Experience</h2>
-  {% for industry in site.data.industry %}
   <ul>
-    <li><p><b>{{ industry.title }}</b>, <a href="{{ industry.link }} " target="_blank">
-      {{ industry.company }}</a></p></li>
+  {% for industry in site.data.industry %}
+    <li><b>{{ industry.title }}</b>, <a href="{{ industry.link }} " target="_blank">
+      {{ industry.company }}</a></li>
     <ul>
       {% for desc in industry.descriptions %}
         <li>{{ desc.content }}</li>
       {% endfor %}
     </ul>
+
+    {% endfor %}
   </ul>
-  {% endfor %}
   <hr />
 
   <h2>Leadership Experience</h2>
-  {% for leadership in site.data.leadership %}
   <ul>
-    <li><p><b>{{ leadership.title }}</b>, <a href="{{ leadership.link }} " target="_blank">
-      {{ leadership.organization }}</a></p></li>
+  {% for leadership in site.data.leadership %}
+    <li><b>{{ leadership.title }}</b>, <a href="{{ leadership.link }} " target="_blank">
+      {{ leadership.organization }}</a></li>
     <ul>
       {% for desc in leadership.descriptions %}
         <li>{{ desc.content }}</li>
       {% endfor %}
     </ul>
+    {% endfor %}
   </ul>
-  {% endfor %}
   <hr />
 
   <h2>Technical Skills</h2>
   <ul>
     {% for skill in site.data.technical %}
-    <li>{{ skill.type }}</li>
-      <ul>
-        <li>
+    <li>{{ skill.type }}:
           {% for example in skill.examples %}
             {% if forloop.index == 1 %}
               {{ example.item }}
@@ -115,26 +132,26 @@ layout: default
               , {{ example.item }}
             {% endif %}
           {% endfor %}
-        </li>
-      </ul>
+      </li>
     {% endfor %}
   </ul>
+  <hr />
 
   <h2>Projects</h2>
-  {% for project in site.data.project %}
   <ul>
-    <li><p><a href="{{ project.link }} " target="_blank"><b>{{ project.title }}</b></a>, 
-      &nbsp;{{ project.time }}</p></li>
+  {% for project in site.data.project %}
+    <li><a href="{{ project.link }} " target="_blank"><b>{{ project.title }}</b></a>, 
+      &nbsp;{{ project.time }}</li>
     <ul>
       {% for desc in project.descriptions %}
         <li>{{ desc.content }}</li>
       {% endfor %}
     </ul>
+    {% endfor %}
   </ul>
-  {% endfor %}
   <hr />
 
-  <h2>Posters & Presentations</h2>
+  <!-- <h2>Posters & Presentations</h2>
   {% for presentation in site.data.presentation %}
     <h3>{{ presentation.venue }}</h3>
     {% if presentation.link == nil %}
@@ -149,6 +166,6 @@ layout: default
       {% endfor %}
     </ul>
   {% endfor %}
-  <hr />
+  <hr /> -->
 
 </body>
