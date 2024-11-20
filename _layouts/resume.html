@@ -5,12 +5,18 @@ layout: default
 <body class="page {{ page.color_theme }}">
   <!-- Updated on {% last_modified_at %}<br/><br/> -->
 
-  <h2>About</h2>
+  <h2>
+    <i class="fa fa-camera icon-spacing"></i>
+    About
+  </h2>
   {% include about.html %}
   
   <hr />
   <header class="section-header">
-      <h2>Education</h2>
+      <h2>
+        <i class="fa fa-university icon-spacing"></i>
+        Education
+      </h2>
   </header>
   {% for education in site.data.education %}
     <h3><a href="{{ education.link }}" target="_blank">{{ education.school }}</a></h3>
@@ -23,7 +29,10 @@ layout: default
   <hr />
 
   <header class="section-header">
-      <h2>Publications</h2>
+      <h2>
+        <i class="fa fa-pencil icon-spacing"></i>
+        Publications
+      </h2>
   </header>
   <ul>
   {% for publication in site.data.publication %}
@@ -40,7 +49,10 @@ layout: default
   </ul>
   <hr />
 
-  <h2>Services</h2>
+  <h2>
+    <i class="fa fa-users icon-spacing"></i>
+    Services
+  </h2>
   <ul>
   {% for service in site.data.services %}
       <li>
@@ -64,7 +76,10 @@ layout: default
   {% endfor %}
   <hr /> -->
 
-  <h2>Honors and Awards</h2>
+  <h2>
+    <i class="fa fa-trophy icon-spacing"></i>
+    Honors and Awards
+  </h2>
   <ul>
   {% for scholarship in site.data.scholarship %}
       <li>
@@ -78,7 +93,10 @@ layout: default
     </ul>
   <hr/>
 
-  <h2>Teaching Experience</h2>
+  <h2>
+    <i class="fa fa-book icon-spacing"></i>
+    Teaching Experience
+  </h2>
   <ul>
   {% for teaching in site.data.teaching %}
     <li><b>{{ teaching.title }}</b>, {{ teaching.institution }}</li>
@@ -92,7 +110,10 @@ layout: default
   </ul>
   <hr />
 
-  <h2>Industry Experience</h2>
+  <h2>
+    <i class="fa fa-briefcase icon-spacing"></i>
+    Industry Experience
+  </h2>
   <ul>
   {% for industry in site.data.industry %}
     <li><b>{{ industry.title }}</b>, <a href="{{ industry.link }} " target="_blank">
@@ -107,7 +128,10 @@ layout: default
   </ul>
   <hr />
 
-  <h2>Leadership Experience</h2>
+  <h2>
+    <i class="fa fa-flag icon-spacing"></i>
+    Leadership Experience
+  </h2>
   <ul>
   {% for leadership in site.data.leadership %}
     <li><b>{{ leadership.title }}</b>, <a href="{{ leadership.link }} " target="_blank">
@@ -121,7 +145,10 @@ layout: default
   </ul>
   <hr />
 
-  <h2>Technical Skills</h2>
+  <h2>
+    <i class="fa fa-certificate icon-spacing"></i>
+    Technical Skills
+  </h2>
   <ul>
     {% for skill in site.data.technical %}
     <li>{{ skill.type }}:
@@ -137,7 +164,10 @@ layout: default
   </ul>
   <hr />
 
-  <h2>Projects</h2>
+  <h2>
+    <i class="fa fa-star icon-spacing"></i>
+    Projects
+  </h2>
   <ul>
   {% for project in site.data.project %}
     <li><a href="{{ project.link }} " target="_blank"><b>{{ project.title }}</b></a>, 

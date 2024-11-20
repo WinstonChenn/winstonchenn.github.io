@@ -40,18 +40,23 @@ socials:
 - 
   title: Email
   url: mailto:chenwt@umich.com
+  fa-icon: 'fa-envelope'
 - 
   title: CV
   url: assets/pdf/Winston_CV.pdf
+  fa-icon: 'fa-file-pdf-o'
 - 
   title: GitHub
   url: https://github.com/WinstonChenn
+  fa-icon: 'fa-github'
 - 
   title: LinkedIn
   url: https://www.linkedin.com/in/winstonchenn/
+  fa-icon: 'fa-linkedin-square'
 - 
   title: Twitter
   url: https://twitter.com/winstonchenn
+  fa-icon: 'fa-twitter-square'
 
 profile_image: assets/img/headshot.jpg
 
