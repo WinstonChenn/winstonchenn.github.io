@@ -198,6 +198,9 @@ a.sidebar-nav-item:focus {
 li {
   margin: 0px 0; }
 
+.icon-spacing {
+  margin-right: 8px; }
+
 /*
  * Sidebar
  *
