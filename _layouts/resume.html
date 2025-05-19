@@ -43,6 +43,7 @@ layout: default
             <li><i>{{ publication.publisher }}</i>
             {% if publication.paper != nil %} <a href="{{ publication.paper }}" target="_blank">[Paper]</a> {% endif %}
             {% if publication.poster != nil %} <a href="{{ publication.poster }}" target="_blank">[Poster]</a> {% endif %}
+            {% if publication.code != nil %} <a href="{{ publication.code }}" target="_blank">[Code]</a> {% endif %}
             {% if publication.note != nil %} <li><i>{{ publication.note }}</i> {% endif %}</li>
           </ul>
         </li>

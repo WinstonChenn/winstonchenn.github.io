@@ -1,13 +1,17 @@
+- title: "Conditional Front-door Adjustment for Heterogeneous Treatment Assignment Effect Estimation Under Non-compliance"
+  authors: "<b>Winston Chen</b>, Trenton Chang, Jenna Wiens"
+  publisher: Conference on Health, Inference, and Learning (CHIL), 2025
+  year: 2025
+  paper: https://www.arxiv.org/abs/2505.05677
+  code: https://github.com/MLD3/LobsterNet
+
 - title: "Error-controlled Non-additive Interaction Discovery in Machine Learning Models"
   authors: "<b>Winston Chen</b>, Yifan Jiang, William Stafford Noble, Yang Young Lu"
   publisher: "Nature Machine Intelligence, 2025"
   year: 2025
   paper: https://arxiv.org/abs/2408.17016
   poster: assets/pdf/Diamond_poster.pdf
+  code: https://github.com/batmen-lab/diamond
   note: "Previously presented at NeurIPS 2024 workshop on Interpretable AI Past, Present and Future and Machine Learning in Computational Biology (MLCB), 2023"
 
-- title: "Conditional Front-door Adjustment for Heterogeneous Treatment Assignment Effect Estimation Under Non-compliance"
-  authors: "<b>Winston Chen</b>, Trenton Chang, Jenna Wiens"
-  publisher: Under Review
-  year: 2024
 
