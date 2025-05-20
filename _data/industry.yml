@@ -2,7 +2,7 @@
   company: RealNetworks
   link: https://realnetworks.com/
   descriptions:
-  - content: Built a FIDO2 roaming authenticator prototype that allows passwordless authentication on web services supporting support Webauthn.
+  - content: Built a FIDO2 roaming authenticator prototype that allows passwordless authentication on web services supporting WebAuthn.
   - content: Integrated the authenticator with SAFR facial recognition technology to enable biometric verification.
   - content: Demonstrated the authenticator in collaboration with StrongKey at the flagship FIDO conference, Authenticator 2022.
 - title: Python Engineering Intern
