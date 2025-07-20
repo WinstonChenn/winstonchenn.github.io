@@ -3,6 +3,7 @@
   publisher: Conference on Health, Inference, and Learning (CHIL), 2025
   year: 2025
   paper: https://www.arxiv.org/abs/2505.05677
+  poster: assets/pdf/LobsterNet_poster.pdf
   code: https://github.com/MLD3/LobsterNet
 
 - title: "Error-controlled Non-additive Interaction Discovery in Machine Learning Models"
