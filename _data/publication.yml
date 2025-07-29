@@ -15,4 +15,9 @@
   code: https://github.com/batmen-lab/diamond
   note: "Previously presented at NeurIPS 2024 workshop on Interpretable AI Past, Present and Future and Machine Learning in Computational Biology (MLCB), 2023"
 
+- title: "Measuring Model Performance in the Presence of an Intervention"
+  authors: "<b>Winston Chen</b>, Michael W. Sjoding, Jenna Wiens"
+  publisher: "Under review"
+  year: 2025
+
 
