@@ -1,3 +1,18 @@
+- title: "Measuring the Impact of an Ambient AI Scribe on Clinical Notes: A Retrospective Cohort Study"
+  authors: "<b>Winston Chen</b>, K. C. Wibisono, A. Vadlapatla, S. Shore, Y. Wang, W. Dempsey, Jenna Wiens"
+  publisher: "Under Review"
+  year: 2026
+
+- title: "Autoregressive Policy Factorization for Learning to Intervene in Graph Diffusion Processes"
+  authors: "<b>Winston Chen</b>, M. B. Ito, W. Dempsey, Jenna Wiens"
+  publisher: "Under Review"
+  year: 2026
+
+- title: "Measuring the effect of an intervention bundle to prevent unplanned 30-day hospital readmission: a randomized quality improvement study"
+  authors: "<b>Winston Chen</b>, Michelle Neeley, Sean Meyer, Justin Ortwine, Matthew Luzum, Paul J. Grant, Antoinette Coe, Amy Thompson,  Vikas Parekh, Michael W. Sjoding, Jenna Wiens"
+  publisher: "Under Review"
+  year: 2026
+
 - title: "Measuring Model Performance in the Presence of an Intervention"
   authors: "<b>Winston Chen</b>, Michael W. Sjoding, Jenna Wiens"
   publisher: The 40th Annual AAAI Conference on Artificial Intelligence, 2026
@@ -6,14 +21,6 @@
   code: https://github.com/MLD3/NPW
   year: 2026
 
-- title: "Conditional Front-door Adjustment for Heterogeneous Treatment Assignment Effect Estimation Under Non-adherence"
-  authors: "<b>Winston Chen</b>, Trenton Chang, Jenna Wiens"
-  publisher: Conference on Health, Inference, and Learning (CHIL), 2025
-  year: 2025
-  paper: https://www.arxiv.org/abs/2505.05677
-  poster: assets/pdf/LobsterNet_poster.pdf
-  code: https://github.com/MLD3/LobsterNet
-
 - title: "Error-controlled Non-additive Interaction Discovery in Machine Learning Models"
   authors: "<b>Winston Chen</b>, Yifan Jiang, William Stafford Noble, Yang Young Lu"
   publisher: "Nature Machine Intelligence, 2025"
@@ -21,9 +28,12 @@
   paper: https://www.nature.com/articles/s42256-025-01086-8
   poster: assets/pdf/Diamond_poster.pdf
   code: https://github.com/batmen-lab/diamond
-  note: "Previously presented at NeurIPS 2024 workshop on Interpretable AI Past, Present and Future and Machine Learning in Computational Biology (MLCB), 2023"
+  note: "Previously presented at the NeurIPS 2024 Workshop on Interpretable AI: Past, Present, and Future and MLCB 2023"
 
-- title: "Measuring the effect of an intervention bundle to prevent unplanned 30-day hospital readmission: a randomized quality improvement study"
-  authors: "<b>Winston Chen</b>, Michelle Neeley, Sean Meyer, Justin Ortwine, Matthew Luzum, Paul J. Grant, Antoinette Coe, Amy Thompson,  Vikas Parekh, Michael W. Sjoding, Jenna Wiens"
-  publisher: "Under Review"
+- title: "Conditional Front-door Adjustment for Heterogeneous Treatment Assignment Effect Estimation Under Non-adherence"
+  authors: "<b>Winston Chen</b>, Trenton Chang, Jenna Wiens"
+  publisher: Conference on Health, Inference, and Learning (CHIL), 2025
   year: 2025
+  paper: https://www.arxiv.org/abs/2505.05677
+  poster: assets/pdf/LobsterNet_poster.pdf
+  code: https://github.com/MLD3/LobsterNet
